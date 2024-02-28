@@ -86,8 +86,7 @@ async function getDeezerPlaylistTracks(url) {
     json = {};
     tracks = [];
     do {
-        $.ajax({
-            async: false,
+        await $.ajax({
             url: url,
             type: "GET",
             dataType: "json",
