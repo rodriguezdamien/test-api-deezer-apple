@@ -53,4 +53,4 @@ Pour créer un Token, vous avez deux choix :
 Soit vous passez par le [script python ici] (Uniquement Linux)
 
 Soit vous trouverez un guide ici :
-TODO Insérer le guide
+![Guide de création d'un Developer Token Apple Music](DevToken.md)
