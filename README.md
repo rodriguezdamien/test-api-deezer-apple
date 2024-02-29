@@ -18,21 +18,21 @@ Voici la structure de l'objet playlist :
 
 ```json
 {
-  "id": //ID de la playlist,
-  "name": //Nom de la playlist,
-  "artwork": //URL vers un artwork en 250*250 pixels,
-  "nbTracks": //Nombre de musique dans la playlist,
-  "creatorName": //Nom du créateur de la playlist,
-  "creationDate": //(TEMPORAIRE) Date de création pour Deezer, Date dernière modif pour Apple Musique,
-  "desc": //Description de la playlist,
-  "tracks": [ //Liste des musiques
+  "id": ID de la playlist,
+  "name": Nom de la playlist,
+  "artwork": URL vers un artwork en 250*250 pixels,
+  "nbTracks": Nombre de musique dans la playlist,
+  "creatorName": Nom du créateur de la playlist,
+  "creationDate": (TEMPORAIRE) Date de création pour Deezer, Date dernière modif pour Apple Musique,
+  "desc": Description de la playlist,
+  "tracks": [ Liste des musiques
     {
-      "id": //ID de la musique,
-      "title": //Titre de la musique,
-      "artwork": //URL vers un artwork en 250*250 pixels,
-      "isrc": //Code ISRC de la musique,
-      "durationMs": //Durée de la musique en milisecondes,
-      "artist": //Nom de l'artiste de la musique
+      "id": ID de la musique,
+      "title": Titre de la musique,
+      "artwork": URL vers un artwork en 250*250 pixels,
+      "isrc": Code ISRC de la musique,
+      "durationMs": Durée de la musique en milisecondes,
+      "artist": Nom de l'artiste de la musique
     },
   ]
 }
