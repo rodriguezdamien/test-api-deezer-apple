@@ -9,11 +9,20 @@
     <body>
         <div>
             <h1 style="margin: 0px">Deezer & Apple Music API Testing</h1>
-            <p style="margin-top: 0px">(si l'app est en local, lancer l'extension CORS everywhere)</p>
+            <p style="margin-top: 0px">
+                Si l'App est en local, lancez
+                <a href="https://addons.mozilla.org/fr/firefox/addon/cors-everywhere/">l'extension CORS everywhere</a>
+                (Firefox) ou
+                <a
+                    href="https://chromewebstore.google.com/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf?hl=fr"
+                    >Allow CORS</a
+                >
+                (Chromium)
+            </p>
         </div>
         <div class="container">
             <div>
-                <div id="dropzone">Déposer une playlist Deezer ou Apple Music ici</div>
+                <div id="dropzone">Déposez une playlist Deezer ou Apple Music ici</div>
             </div>
             <div id="datadisplay"></div>
         </div>
@@ -23,5 +32,6 @@
         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
         crossorigin="anonymous"
     ></script>
-    <script src="main.js"></script>
+    <script type="module" src="main.js"></script>
+    <script src="https://js-cdn.music.apple.com/musickit/v3/musickit.js" async></script>
 </html>
