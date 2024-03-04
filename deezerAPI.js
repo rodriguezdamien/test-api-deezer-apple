@@ -66,6 +66,7 @@ async function serializePlaylist(playlist) {
     }
     return {
         id: playlist.id,
+        source: "Deezer",
         name: playlist.title,
         artwork: playlist.picture_medium, //picture_big, small, xl ou picture tout court
         nbTracks: playlist.nb_tracks,
