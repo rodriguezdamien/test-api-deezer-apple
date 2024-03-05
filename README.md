@@ -50,7 +50,7 @@ Cette structure est réalisé après passage de l'objet dans les fonctions de s�
 
 Pour créer un Token, vous avez deux choix :
 
-Soit vous passez par le [script python ici] (Uniquement Linux)
+Soit vous passez par le [script python ici](https://github.com/rodriguezdamien/appleMusicTokenGen) (Uniquement Linux)
 
 Soit vous trouverez un guide ici :
 [Guide de création d'un Developer Token Apple Music](DevToken.md)
