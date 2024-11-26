@@ -42,9 +42,9 @@ Cette structure est réalisé après passage de l'objet dans les fonctions de s�
 
 ## Liens intéressants
 
-[Doc API Deezer](https://developers.deezer.com/api)
-[Doc API Apple Music](https://developer.apple.com/documentation/applemusicapi/)
-[Doc MusicKit on the Web](https://js-cdn.music.apple.com/musickit/v3/docs/index.html)
+- [Doc API Deezer](https://developers.deezer.com/api)
+- [Doc API Apple Music](https://developer.apple.com/documentation/applemusicapi/)
+- [Doc MusicKit on the Web](https://js-cdn.music.apple.com/musickit/v3/docs/index.html)
 
 ## Création d'un Developer Token pour l'API Apple Music
 
